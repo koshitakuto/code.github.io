@@ -444,35 +444,4 @@ th {
     margin: 120 auto;
   }
   
-  /* スライダーのwrapper */
-  .infinite-slider .swiper-wrapper {
-    transition-timing-function: ease-in
-    ;
-  }
-  
-  /* スライド */
-  .infinite-slider .swiper-slide {
-    height: 700px !important; /* 高さを指定 */
-    width: auto !important;
-      
- /* スマートフォン用スタイル */
-@media (max-width: 767px) {
-    .container {
-        margin: 60px auto; /* スマートフォン用のマージン */
-    }
-    
-    .infinite-slider .swiper-slide {
-        height: 300px !important; /* スマートフォン用の高さ */
-    }
-}
-  }
-  
-  /* スライダー内の画像 */
-.infinite-slider .swiper-slide img {
-    object-fit: cover; /* 画像を均等に拡大または縮小 */
-    width: auto; /* 幅を100%に設定 */
-    height: auto; /* 高さを100%に設定 */
-  }
-  
-
  
