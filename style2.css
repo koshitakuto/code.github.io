@@ -167,7 +167,7 @@ em {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1700px) {
     .cs_none_sp {
         display: none !important;
     }
