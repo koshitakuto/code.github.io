@@ -1,16 +1,22 @@
 window.addEventListener("DOMContentLoaded", () => {
-    const infiniteSlider = new Swiper(".infinite-slider", {
-      loop: true,
-      loopedSlides: 4,
-      slidesPerView: "auto",
-      speed: 300,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
+  const infiniteSlider = new Swiper(".infinite-slider", {
+    loop: true,
+    loopedSlides: 4,
+    slidesPerView: "auto",
+    speed: 300,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    effect: "slide",
+    breakpoints: {
+      768: {
+        slidesPerView: 1, // スマートフォンの場合に1つのスライドを表示
       },
-      effect: 'slide'
-    });
+    },
   });
+});
+
 
 
 /*********************************************************************
