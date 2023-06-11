@@ -446,7 +446,7 @@ th {
   
 /* スマートフォン用スタイル */
 @media (max-width: 767px) {
-  .swiper infinite-slider {
+  .swiper-slide {
     height: 300px !important;
     width: auto;
   }
