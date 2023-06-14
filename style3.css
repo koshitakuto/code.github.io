@@ -94,6 +94,7 @@ header {
     background-color: #FFF(190, 77%, 52%, 0.957);
     border-bottom: 1px solid #c9c9c9;
     z-index: 1;     
+    position: fixed;
 }
 
 .header-image {
@@ -130,7 +131,7 @@ header .toggle_wrap {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     border-right: 1px solid #c9c9c9;
-    z-index: 100;
+    z-index: 9999;
     opacity: 0;
     transition: 0.3s ease-in-out;
 }
