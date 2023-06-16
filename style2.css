@@ -510,3 +510,16 @@ em {
 }
 
 @media screen and (max-width: 767px) {}
+
+.container {
+  margin-bottom: 20px; /* スライダーと集合写真の間隔を調整するための下のマージン */
+}
+
+.swiper-wrapper {
+  margin-bottom: -10px; /* スライダー内の各スライドの下のマージンを調整 */
+}
+
+.cs_sec_inner {
+  margin-top: 10px; /* 集合写真の上のマージンを調整 */
+}
+
