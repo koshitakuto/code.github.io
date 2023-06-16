@@ -93,7 +93,7 @@ header {
     min-width: 1000px;
     background-color: #FFF(190, 77%, 52%, 0.957);
     border-bottom: 1px solid #c9c9c9;
-    z-index: 1;     
+    z-index: 2;     
     position: fixed;
 }
 
