@@ -524,3 +524,14 @@ em {
   margin-top: 10px; /* 集合写真の上のマージンを調整 */
 }
 
+/* モバイルデバイス用のスタイル */
+@media (max-width: 767px) {
+  .swiper-slide {
+    margin-right: 10px; /* スライダーのスライド間の右側のマージンを調整 */
+  }
+  
+  .cs_sec_inner {
+    margin-top: 10px; /* 集合写真の上のマージンを調整 */
+  }
+}
+
