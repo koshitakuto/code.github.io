@@ -517,6 +517,7 @@ em {
 
 .swiper-wrapper {
   margin-bottom: -10px; /* スライダー内の各スライドの下のマージンを調整 */
+  z-index: 1;
 }
 
 .cs_sec_inner {
